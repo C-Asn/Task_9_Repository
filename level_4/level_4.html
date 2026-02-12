@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level 4</title>
+<link rel="stylesheet" href="level4.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container py-5">
+        <div class="card custom-card mx-auto" style="max-width: 700px">
+
+            <div class="card-body">
+                <span class="badge bg-success mb-2">Level 4</span>
+
+                <h3 class="card-title"> Form Validation</h3>
+
+                <p id="validationMessage" class="card-text">
+                    Enter a name. Empty = error, filled = success.
+                </p>
+
+                <label class="form-label mt-3">Player Name</label>
+
+                <input type="text" id="nameField" class="form-control mb-3" placeholder="Enter Player's Name">
+
+                <button onclick="validateName()" class="btn btn-success w-100 mb-4">Submit Name</button>
+
+                <p id="resultMessage" class="fw-semibold"></p>
+                <hr>
+
+                <div class="d-flex gap-2 mt-3">
+                    <a href="../level_3/level_3.html" class="btn btn-secondary flex-fill"> Back </a>
+                    <a href="../level_5/level_5.html" class="btn btn-success flex-fill"> Next Level </a>
+                </div>
+        </div>
+    </div>
+
+    <script src="level4.js"></script>
+</body>
+</html>
