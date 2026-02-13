@@ -2,7 +2,7 @@
     "rewrites": [
         {
             "source": "/(.*)",
-            "destination": "/Task_9.html"
+            "destination": "/level_1.html"
         }
     ]
 }
